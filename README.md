@@ -5,14 +5,15 @@ Pure Data reverb abstraction based on "Simplified plate-class reverberation topo
 
 In order to make the implementation sample rate independent the fixed sample delay values in the original figure was converted by dividing the values with the suggested sample rate. Below, complete conversion table:
 
-                  smp   /29.761
 
-input diffusion allpass filters:
+### input diffusion allpass filters
 
-13_14             142   4,77134
-19_20             107   3,59530
-15_16             379   12,7348
-21_22             277   9,30748
+| delay | smp | /29.761 |
+|-------|-----|---------|
+| 13_14 | 142 | 4,77134 |
+| 19_20 | 107 | 3,59530 |
+| 15_16 | 379 | 12,7348 |
+| 21_22 | 277 | 9,30748 |
 
 
 tank allpass filters:
