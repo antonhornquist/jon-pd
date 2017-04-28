@@ -42,6 +42,7 @@ See conversion tables below where smp = delay in samples at sample rate 29761 hz
 ### Taps
 
 yl:
+
 | delay | smp    | smp/29.761 |
 |-------|--------|------------|
 | 48_54 | + 266  | 8,93787    |
@@ -53,6 +54,7 @@ yl:
 | 33_39 | - 1066 | 35,81868   |
 
 yr:
+
 | delay | smp    | smp/29.761 |
 |-------|--------|------------|
 | 24_30 | + 353  | 11,86116   |
